@@ -30,3 +30,10 @@ function filterByPrice(userRange){
     });
     return result;
 }
+
+console.log('requiredRange1: ');
+console.log(filterByPrice(requiredRange1));
+console.log('requiredRange2: ');
+console.log(filterByPrice(requiredRange2));
+console.log('requiredRange3: ');
+console.log(filterByPrice(requiredRange3));
